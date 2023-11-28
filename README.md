@@ -14,5 +14,5 @@
 ## Concepts
 1. 0x00. ES6 Basics
 
-> Author:[Mithamo Beth](https://github.com/Mythamor)
-> > [Mithamo's Portfolio](https://www.mithamo.tech)
+> Author:[Mithamo Beth](https://github.com/Mythamor) 
+> Website:[Mithamo's Portfolio](https://www.mithamo.tech)
