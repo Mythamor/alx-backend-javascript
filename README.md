@@ -1,5 +1,9 @@
 # Back-end Specialization JavaScript Projects
 
+## Concepts
+1. 0x00. ES6 Basics
+2. 0x01. ES6 Promises
+
 ## General Requirements
 * All your files will be executed on `Ubuntu 18.04 LTS` using `NodeJS 12.11.x`
 * Allowed editors: `vi, vim, emacs, Visual Studio Code`
@@ -11,8 +15,7 @@
 * All of your functions must be exported
 
 
-## Concepts
-1. 0x00. ES6 Basics
 
 > Author:[Mithamo Beth](https://github.com/Mythamor) 
-> Website:[Mithamo's Portfolio](https://www.mithamo.tech)
+
+> > Website:[Mithamo's Portfolio](https://www.mithamo.tech)
