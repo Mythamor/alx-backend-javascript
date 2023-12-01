@@ -1,10 +1,7 @@
 export default class Pricing {
   constructor(amount, currency) {
-    this._amount = 0;
-    this._currency = '';
-
-    this.amount = amount;
-    this.currency = currency;
+    this._amount = amount;
+    this._currency = currency;
   }
 
   // Getter and setter for 'amount'
@@ -13,9 +10,6 @@ export default class Pricing {
   }
 
   set amount(value) {
-    if (typeof value !== 'number') {
-      throw new TypeError('Anount must be a number');
-    }
     this._amount = value;
   }
 
@@ -33,6 +27,6 @@ export default class Pricing {
   }
 
   static convertPrice(amount, conversionRate) {
-    return `${amount} * ${conversionRate}`;
+    return (amount * conversionRate);
   }
 }
