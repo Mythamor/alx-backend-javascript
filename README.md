@@ -4,6 +4,9 @@
 1. 0x00. ES6 Basics
 2. 0x01. ES6 Promises
 3. 0x02. ES6 classes
+4. 0x03-ES6 Data Manipulation
+5. 0x04-TypeScript
+
 
 ## General Requirements
 * All your files will be executed on `Ubuntu 18.04 LTS` using `NodeJS 12.11.x`
