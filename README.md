@@ -19,4 +19,4 @@
 
 > Author:[Mithamo Beth](https://github.com/Mythamor) 
 
-> > Website:[Mithamo's Portfolio](https://www.mithamo.tech)
+> Website:[Mithamo.tech](https://www.mithamo.tech)
