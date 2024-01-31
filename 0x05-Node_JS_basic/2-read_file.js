@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-function countStudents(path) {
+function countStudents (path) {
   try {
     // Read the CSV file synchronously
     const data = fs.readFileSync(path, 'utf8').trim().split('\n');
@@ -15,6 +15,7 @@ function countStudents(path) {
 
     // Loop through each line and process student data
     data.forEach(line => {
+      /* eslint-disable-next-line no-unused-vars */
       const [firstname, lastname, age, field] = line.split(',').map(item => item.trim());
       if (fieldCounts[field]) {
         fieldCounts[field].push(firstname);
