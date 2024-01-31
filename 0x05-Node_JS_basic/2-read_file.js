@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 
-function countStudents (path) {
+function countStudents(path) {
   try {
     // Read the CSV file synchronously
     const data = fs.readFileSync(path, 'utf8').trim().split('\n');
