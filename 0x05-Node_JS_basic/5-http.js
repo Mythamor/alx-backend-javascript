@@ -49,6 +49,8 @@ const app = http.createServer((req, res) => {
           res.end(`This is the list of our students\nNumber of students: ${studentsCount}\nNumber of students in CS: ${csStudents.length}. List: ${csStudents.join(', ')}\nNumber of students in SWE: ${sweStudents.length}. List: ${sweStudents.join(', ')}`);
         })
         .catch((error) => {
+          res.statusCode = 500;
+          res.SetHeader('Content-Type', 'text/plain');
           res.end(error.message);
         });
       break;
