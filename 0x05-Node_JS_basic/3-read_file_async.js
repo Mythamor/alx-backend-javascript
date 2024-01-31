@@ -9,14 +9,14 @@ function countStudents (path) {
         reject(new Error('Cannot load the database'));
       } else {
         try {
-          const lines = data.trim().split('\n').filter(line => line.trim() !== '');
+          const lines = data.trim().split('\n').filter((line) => line.trim() !== '');
           lines.shift(); // Remove header
 
           const fieldCounts = {};
 
-          lines.forEach(line => {
+          lines.forEach((line) => {
             /* eslint-disable-next-line no-unused-vars */
-            const [firstname, lastname, age, field] = line.split(',').map(item => item.trim());
+            const [firstname, lastname, age, field] = line.split(',').map((item) => item.trim());
             if (fieldCounts[field]) {
               fieldCounts[field].push(firstname);
             } else {
